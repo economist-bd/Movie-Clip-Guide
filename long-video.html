@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MH Academy | AI Long Video Masterclass (Grok & More)</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #f8fafc;
+            user-select: none;
+        }
+        .theme-orange { color: #f97316; }
+        .gradient-bg { background: linear-gradient(135deg, #000000 0%, #1e1e1e 100%); }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #f97316; border-radius: 4px; }
+    </style>
+</head>
+<body class="text-gray-800 antialiased" oncontextmenu="return false;">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 text-white sticky top-0 z-50 shadow-lg border-b-4 border-orange-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-4">
+                    <a href="index.html" class="bg-gray-800 hover:bg-orange-600 p-2 rounded-full transition duration-300" title="হোম পেজে ফিরে যান">
+                        <i data-lucide="home" class="w-6 h-6"></i>
+                    </a>
+                    <a href="monetization_plan.html" class="bg-gray-800 hover:bg-orange-600 p-2 rounded-full transition duration-300" title="আগের পেজে যান">
+                        <i data-lucide="arrow-left" class="w-6 h-6"></i>
+                    </a>
+                    <span class="text-xl md:text-2xl font-bold tracking-wider"><span class="text-orange-500">MH</span> Academy</span>
+                </div>
+                <div class="hidden md:block">
+                    <span class="text-sm bg-orange-600 px-3 py-1 rounded-full font-medium">AI Video Mastery</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-16 px-4 text-center relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-80 h-80 bg-blue-600 rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-orange-600 rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
+
+        <div class="max-w-4xl mx-auto relative z-10">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
+                GROK ও AI দিয়ে <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">লং ভিডিও তৈরির মাস্টার গাইড</span>
+            </h1>
+            <p class="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
+                স্ক্রিপ্ট থেকে ফাইনাল ভিডিও—পুরো প্রসেস অটোমেটেড। ইলন মাস্কের GROK এবং নতুন ভিডিও জেনারেশন টুলস ব্যবহার করে ডকুমেন্টারি তৈরির পূর্ণাঙ্গ রোডম্যাপ।
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto py-12 px-4 space-y-16">
+
+        <!-- STEP 1: SCRIPTING WITH GROK -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-white">
+                <div class="bg-white p-2 rounded text-black font-bold text-2xl">X</div>
+                <h2 class="text-2xl font-bold text-white">ধাপ ১: GROK দিয়ে ট্রেন্ডিং স্ক্রিপ্ট তৈরি</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-gray-600 mb-6 text-lg">
+                    ChatGPT-এর ডেটা পুরোনো হতে পারে, কিন্তু <strong>GROK (xAI)</strong> সরাসরি টুইটার (X) এর রিয়েল-টাইম ডেটা অ্যাক্সেস করতে পারে। তাই ভাইরাল টপিক ধরার জন্য GROK সেরা।
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                        <h4 class="font-bold text-gray-800 mb-2 flex items-center gap-2">
+                            <i data-lucide="search" class="text-orange-600"></i> ট্রেন্ড খোঁজার প্রম্পট
+                        </h4>
+                        <div class="bg-black text-green-400 p-4 rounded-lg font-mono text-xs md:text-sm">
+                            "Search X for the most discussed controversy or news about [Your Niche, e.g., AI Technology] in the last 24 hours. Summarize why it's viral."
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                        <h4 class="font-bold text-gray-800 mb-2 flex items-center gap-2">
+                            <i data-lucide="file-text" class="text-orange-600"></i> লং স্ক্রিপ্ট প্রম্পট
+                        </h4>
+                        <div class="bg-black text-green-400 p-4 rounded-lg font-mono text-xs md:text-sm">
+                            "Write a 2000-word engaging YouTube documentary script about this topic. Use a storytelling tone like 'MagnatesMedia'. Include an exciting hook in the first 10 seconds."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 2: VISUALIZATION (IMAGE GEN) -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-purple-500">
+                <i data-lucide="image" class="text-purple-400 w-8 h-8"></i>
+                <h2 class="text-2xl font-bold text-white">ধাপ ২: ক্যারেক্টার ও সিন তৈরি (Midjourney/Flux)</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-gray-600 mb-6">
+                    ভিডিওর জন্য কনসিস্টেন্ট (Consistent) ক্যারেক্টার দরকার। বর্তমানে <strong>Midjourney v6</strong> অথবা ফ্রি অপশন হিসেবে <strong>Flux (via Poe)</strong> সেরা।
+                </p>
+                
+                <div class="bg-purple-50 p-6 rounded-xl border border-purple-100">
+                    <h4 class="font-bold text-gray-800 mb-3">💡 প্রো টিপস: Cinematic Look</h4>
+                    <p class="text-sm text-gray-700 mb-2">প্রতিটি প্রম্পটের শেষে এই কিওয়ার্ডগুলো যুক্ত করুন:</p>
+                    <code class="block bg-white p-3 rounded border border-gray-300 text-purple-700 font-mono text-sm">
+                        --ar 16:9 --style raw --v 6.0 --stylize 250, cinematic lighting, 8k, hyper-realistic, shot on 35mm lens
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 3: ANIMATION (VIDEO GEN) -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-green-500">
+                <i data-lucide="video" class="text-green-400 w-8 h-8"></i>
+                <h2 class="text-2xl font-bold text-white">ধাপ ৩: ইমেজ টু ভিডিও (Luma / Kling AI)</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-gray-600 mb-6">
+                    স্থির ছবিকে ভিডিওতে রূপান্তর করার জন্য এখন বাজারে সেরা ৩টি টুল আছে। আপনার প্রয়োজন অনুযায়ী বেছে নিন।
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Tool 1 -->
+                    <div class="bg-white p-5 rounded-xl border border-gray-200 hover:shadow-lg transition">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-black text-white px-2 py-1 rounded text-xs font-bold">Luma</span>
+                            <h4 class="font-bold">Dream Machine</h4>
+                        </div>
+                        <p class="text-xs text-gray-500 mb-3">সম্পূর্ণ ফ্রি (লিমিটেড)। খুব দ্রুত ভিডিও জেনারেট করে।</p>
+                        <p class="text-xs text-green-600 font-bold">Best for: Action Scenes</p>
+                    </div>
+
+                    <!-- Tool 2 -->
+                    <div class="bg-white p-5 rounded-xl border border-gray-200 hover:shadow-lg transition">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold">Kling</span>
+                            <h4 class="font-bold">Kling AI</h4>
+                        </div>
+                        <p class="text-xs text-gray-500 mb-3">বর্তমানে সবচাইতে রিয়ালিস্টিক ভিডিও দিচ্ছে (Sora এর বিকল্প)।</p>
+                        <p class="text-xs text-green-600 font-bold">Best for: Realistic Human Movement</p>
+                    </div>
+
+                    <!-- Tool 3 -->
+                    <div class="bg-white p-5 rounded-xl border border-gray-200 hover:shadow-lg transition">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-pink-600 text-white px-2 py-1 rounded text-xs font-bold">Runway</span>
+                            <h4 class="font-bold">Gen-3 Alpha</h4>
+                        </div>
+                        <p class="text-xs text-gray-500 mb-3">টেক্সট টু ভিডিও এবং ভিডিও কন্ট্রোলের জন্য সেরা।</p>
+                        <p class="text-xs text-green-600 font-bold">Best for: Abstract/Sci-fi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 4: VOICEOVER -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-orange-500">
+                <i data-lucide="mic" class="text-orange-500 w-8 h-8"></i>
+                <h2 class="text-2xl font-bold text-white">ধাপ ৪: আল্ট্রা-রিয়ালিস্টিক ভয়েস (ElevenLabs)</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-gray-600 mb-4">
+                    লং ভিডিওর জন্য রোবোটিক ভয়েস চলবে না। <strong>ElevenLabs</strong> ব্যবহার করুন।
+                </p>
+                <ul class="space-y-3 text-sm text-gray-700">
+                    <li class="flex items-start gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-orange-600"></i>
+                        <strong>Setting:</strong> "Eleven Multilingual v2" মডেল সিলেক্ট করুন।
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-orange-600"></i>
+                        <strong>Voice:</strong> স্টোরিটেলিংয়ের জন্য "Adam" (Male) অথবা "Charlotte" (Female) ব্যবহার করুন।
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-orange-600"></i>
+                        <strong>Stability:</strong> ৩০-৪০% এ রাখুন। এতে ভয়েসে আবেগ (Emotion) এবং শ্বাস-প্রশ্বাসের শব্দ আসবে।
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- STEP 5: FINAL ASSEMBLY -->
+        <section class="bg-gray-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                <i data-lucide="scissors" class="text-orange-500"></i>
+                ধাপ ৫: এডিটিং (The Magic Touch)
+            </h2>
+            <p class="text-gray-400 mb-8">
+                সব অ্যাসেট রেডি। এখন জোড়া লাগানোর পালা। পিসির জন্য <strong>Premiere Pro</strong> অথবা মোবাইলের জন্য <strong>CapCut</strong> ব্যবহার করুন।
+            </p>
+
+            <div class="space-y-4">
+                <div class="bg-gray-800 p-4 rounded-lg border-l-4 border-orange-500">
+                    <h4 class="font-bold text-lg">১. সাউন্ড ডিজাইন (Sound Design)</h4>
+                    <p class="text-sm text-gray-400">ভিডিওর প্রাণ হলো সাউন্ড। শুধু ভয়েস আর মিউজিক নয়, ভিডিওতে বৃষ্টির দৃশ্য থাকলে বৃষ্টির শব্দ (SFX) দিন, হাঁটার দৃশ্য থাকলে পায়ের শব্দ দিন।</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg border-l-4 border-orange-500">
+                    <h4 class="font-bold text-lg">২. অটো ক্যাপশন (Auto Caption)</h4>
+                    <p class="text-sm text-gray-400">CapCut-এ "Auto Caption" ফিচার দিয়ে এক ক্লিকে সাবটাইটেল জেনারেট করুন। লং ভিডিওতে সাবটাইটেল রিটেনশন বাড়ায়।</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg border-l-4 border-orange-500">
+                    <h4 class="font-bold text-lg">৩. থাম্বনেইল (Ideogram)</h4>
+                    <p class="text-sm text-gray-400">ভিডিও তৈরির পর <strong>Ideogram AI</strong> দিয়ে থাম্বনেইল বানান। এটি ইমেজের ভেতর টেক্সট (Text) লিখতে পারে যা Midjourney পারে না।</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Author Profile -->
+        <section class="flex flex-col md:flex-row items-center justify-between gap-6 bg-white p-8 rounded-2xl shadow-sm border border-gray-200 mt-12">
+            <div class="flex items-center gap-6">
+                <div class="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg border-2 border-orange-500">MH</div>
+                <div>
+                    <h3 class="font-bold text-gray-900 text-lg">মোঃ মঞ্জুরুল হক</h3>
+                    <p class="text-sm text-gray-500">প্রাবন্ধিক ও শিক্ষক, জিয়াউদ্দিন স্কুল এন্ড কলেজ।</p>
+                    <p class="text-xs text-orange-600 mt-1 font-medium">এআই প্রযুক্তির মাধ্যমে শিক্ষার্থীদের দক্ষতা উন্নয়নের কারিগর।</p>
+                </div>
+            </div>
+            <a href="index.html" class="bg-gray-900 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-bold transition shadow-lg flex items-center gap-2">
+                হোম পেজে যান <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-12 text-center border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="text-gray-400 text-sm mb-2">
+                &copy; 2026 MH Academy. All rights reserved.
+            </p>
+            <p class="text-xs text-gray-600">Created with AI Assistance.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Icons
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+
+        // --- CODE PROTECTION ---
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) { return false; }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; }
+        }
+    </script>
+</body>
+</html>
