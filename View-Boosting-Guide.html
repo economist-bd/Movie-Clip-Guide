@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MH Academy | 10-20 Views Solution Masterclass</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #f8fafc;
+            user-select: none;
+        }
+        .theme-orange { color: #f97316; }
+        .gradient-bg { background: linear-gradient(135deg, #111827 0%, #374151 100%); }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #f97316; border-radius: 4px; }
+    </style>
+</head>
+<body class="text-gray-800 antialiased" oncontextmenu="return false;">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 text-white sticky top-0 z-50 shadow-lg border-b-4 border-orange-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-4">
+                    <a href="index.html" class="bg-gray-800 hover:bg-orange-600 p-2 rounded-full transition duration-300" title="হোম পেজে ফিরে যান">
+                        <i data-lucide="home" class="w-6 h-6"></i>
+                    </a>
+                    <a href="ai_video_guide.html" class="bg-gray-800 hover:bg-orange-600 p-2 rounded-full transition duration-300" title="আগের পেজে যান">
+                        <i data-lucide="arrow-left" class="w-6 h-6"></i>
+                    </a>
+                    <span class="text-xl md:text-2xl font-bold tracking-wider"><span class="text-orange-500">MH</span> Academy</span>
+                </div>
+                <div class="hidden md:block">
+                    <span class="text-sm bg-orange-600 px-3 py-1 rounded-full font-medium">Dead Video Solution</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-16 px-4 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-flex items-center gap-2 bg-red-500/20 border border-red-500/50 px-4 py-1 rounded-full mb-4">
+                <i data-lucide="alert-triangle" class="w-4 h-4 text-red-400"></i>
+                <span class="text-xs md:text-sm text-red-300 font-bold uppercase tracking-wider">Emergency Strategy</span>
+            </div>
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
+                ১০-২০ ভিউতে ভিডিও আটকে গেলে <br>
+                <span class="text-orange-500">করণীয় কী?</span>
+            </h1>
+            <p class="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
+                ভিডিও আপলোড করার পর ভিউ না আসা বা থেমে যাওয়া মানে আপনার ভিডিও 'শ্যাডো ব্যান' হয়নি, বরং ইউটিউব অ্যালগরিদম কনফিউজড। এখানে সমাধানের ৫টি ধাপ দেওয়া হলো।
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto py-12 px-4 space-y-16">
+
+        <!-- DIAGNOSIS SECTION -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-red-500">
+                <i data-lucide="stethoscope" class="text-red-500 w-8 h-8"></i>
+                <h2 class="text-2xl font-bold text-white">ধাপ ১: সমস্যা চিহ্নিত করা (Diagnosis)</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-gray-600 mb-6">
+                    ভিডিও আপলোড করার ২৪ ঘন্টা পর <strong>YouTube Studio</strong>-তে গিয়ে এনালিটিক্স চেক করুন। সমস্যা সাধারণত নিচের দুইটি হয়:
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-red-50 p-6 rounded-xl border border-red-100">
+                        <h4 class="font-bold text-gray-800 mb-2">সমস্যা ক: Low CTR (৫% এর নিচে)</h4>
+                        <p class="text-sm text-gray-600">
+                            এর মানে ইউটিউব মানুষের সামনে ভিডিওটি দেখিয়েছে (Impressions), কিন্তু মানুষ ক্লিক করেনি।<br>
+                            <strong>সমাধান:</strong> থাম্বনেইল এবং টাইটেল ভালো হয়নি।
+                        </p>
+                    </div>
+                    <div class="bg-orange-50 p-6 rounded-xl border border-orange-100">
+                        <h4 class="font-bold text-gray-800 mb-2">সমস্যা খ: Low Retention (৩০% এর নিচে)</h4>
+                        <p class="text-sm text-gray-600">
+                            মানুষ ক্লিক করেছে, কিন্তু ভিডিওটি ৩০ সেকেন্ডের আগেই ছেড়ে চলে গেছে।<br>
+                            <strong>সমাধান:</strong> আপনার ভিডিওর শুরুটা (Intro) বোরিং ছিল।
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STRATEGY 1: The T&T Swap -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-orange-500">
+                <i data-lucide="refresh-cw" class="text-orange-500 w-8 h-8"></i>
+                <h2 class="text-2xl font-bold text-white">ধাপ ২: T&T Swap টেকনিক (Thumbnail & Title)</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-gray-600 mb-6">
+                    যদি দেখেন ২৪ ঘন্টা পরেও ভিউ ৫০ এর কম, তবে সাথে সাথে নিচের কাজটি করুন। এটি ভিডিওকে অ্যালগরিদমে <strong>দ্বিতীয় সুযোগ (Second Chance)</strong> দেয়।
+                </p>
+                
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-orange-100 p-2 rounded-lg text-orange-600 font-bold">০১</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">থাম্বনেইল পরিবর্তন করুন</h4>
+                            <p class="text-sm text-gray-600">আগের থাম্বনেইলে যদি টেক্সট বেশি থাকে, এবার টেক্সট কমিয়ে দিন। অথবা ইমোশন (হাসি/কান্না/অবাক) সহ মুখের ছবি দিন। ব্রাইটনেস বাড়িয়ে দিন।</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-orange-100 p-2 rounded-lg text-orange-600 font-bold">০২</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">টাইটেলে 'Power Word' যুক্ত করুন</h4>
+                            <p class="text-sm text-gray-600">
+                                সাধারণ টাইটেল: <em>"How to make money online"</em> (বোরিং) <br>
+                                পাওয়ার টাইটেল: <em>"How to make money online FAST (No Experience)"</em> (আকর্ষণীয়) <br>
+                                টাইটেলের শেষে ব্র্যাকেটে কিছু লিখুন: (Proof Included), (2026 Guide)।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STRATEGY 2: Community & Remix -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-blue-500">
+                <i data-lucide="share-2" class="text-blue-500 w-8 h-8"></i>
+                <h2 class="text-2xl font-bold text-white">ধাপ ৩: ইন্টারনাল ট্রাফিক পুশ</h2>
+            </div>
+            <div class="p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-blue-50 p-5 rounded-xl border border-blue-100">
+                        <h4 class="font-bold text-gray-800 mb-3 flex items-center gap-2">
+                            <i data-lucide="message-square" class="w-4 h-4"></i> Community Post Hack
+                        </h4>
+                        <p class="text-sm text-gray-600 mb-2">শুধু ভিডিও লিংক শেয়ার করলে রিচ হয় না। একটি ছবি দিন এবং ছবির উপরে ভিডিও লিংক দিন। অথবা একটি পোল (Poll) দিন।</p>
+                        <p class="text-xs text-blue-600 font-medium">উদাহরণ: "আপনারা কি জানেন এআই দিয়ে মাসে কত টাকা আয় সম্ভব? ১. জানি ২. জানি না (ভিডিও লিংক কমেন্টে)"</p>
+                    </div>
+
+                    <div class="bg-red-50 p-5 rounded-xl border border-red-100">
+                        <h4 class="font-bold text-gray-800 mb-3 flex items-center gap-2">
+                            <i data-lucide="scissors" class="w-4 h-4"></i> Shorts Remix
+                        </h4>
+                        <p class="text-sm text-gray-600">
+                            আপনার মূল ভিডিও থেকে সবচাইতে ইন্টারেস্টিং ১৫ সেকেন্ড কেটে একটি <strong>YouTube Short</strong> তৈরি করুন। শর্টস আপলোড করার সময় "Related Video" অপশনে মূল ভিডিওটি লিংক করে দিন। শর্টস ভাইরাল হলে সেখান থেকে লং ভিডিওতে ভিউ আসবে।
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STRATEGY 3: Re-upload Protocol -->
+        <section class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gray-900 p-6 flex items-center gap-4 border-l-8 border-purple-500">
+                <i data-lucide="upload-cloud" class="text-purple-500 w-8 h-8"></i>
+                <h2 class="text-2xl font-bold text-white">ধাপ ৪: রি-আপলোড প্রোটোকল (Re-upload)</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-gray-600 mb-6">
+                    সব চেষ্টা করার পরেও যদি ৩-৪ দিন পর ভিউ ১০০ পার না হয়, তবে ভিডিওটি চ্যানেলের জন্য 'বোঝা' হয়ে দাঁড়ায়। তখন নিচের নিয়মে রি-আপলোড করুন।
+                </p>
+                
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-300">
+                    <h4 class="font-bold text-gray-900 mb-4">রি-আপলোড চেকলিস্ট:</h4>
+                    <ul class="space-y-3 text-sm text-gray-700">
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="x-circle" class="text-red-500 w-4 h-4"></i>
+                            পুরাতন ভিডিওটি ইউটিউব থেকে <strong>ডিলিট করবেন না</strong>, বরং "Unlisted" বা "Private" করে দিন।
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
+                            ভিডিও ফাইলের নাম পরিবর্তন করুন। (যেমন: <code>final_video_v2.mp4</code>)
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
+                            ভিডিওর প্রথম ৫-১০ সেকেন্ড কেটে ফেলে দিন অথবা নতুন একটি ইন্ট্রো যুক্ত করুন। এতে ইউটিউব মনে করবে এটি সম্পূর্ণ নতুন ভিডিও।
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
+                            ভিন্ন সময়ে আপলোড করুন (যেমন: আগে সকালে দিয়ে থাকলে এবার রাতে দিন)।
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPORTANT NOTE -->
+        <section class="bg-gray-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl text-center">
+            <h2 class="text-2xl font-bold mb-4">একটি গোপন সত্য</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto mb-6">
+                স্যার, মনে রাখবেন—ইউটিউবে ভিডিও ভাইরাল হওয়ার কোনো "ম্যাজিক বাটন" নেই। কিন্তু কনসিস্টেন্সি এবং থাম্বনেইল ইমপ্রুভমেন্ট হলো সেই চাবি যা অ্যালগরিদম খুলতে বাধ্য করে। ১০-২০ ভিউ মানে ব্যর্থতা নয়, এটি একটি ডেটা। এই ডেটা ব্যবহার করে পরের ভিডিওটি আরও ভালো করুন।
+            </p>
+        </section>
+
+        <!-- Author Profile -->
+        <section class="flex flex-col md:flex-row items-center justify-between gap-6 bg-white p-8 rounded-2xl shadow-sm border border-gray-200 mt-12">
+            <div class="flex items-center gap-6">
+                <div class="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg border-2 border-orange-500">MH</div>
+                <div>
+                    <h3 class="font-bold text-gray-900 text-lg">মোঃ মঞ্জুরুল হক</h3>
+                    <p class="text-sm text-gray-500">প্রাবন্ধিক ও শিক্ষক, জিয়াউদ্দিন স্কুল এন্ড কলেজ।</p>
+                    <p class="text-xs text-orange-600 mt-1 font-medium">শিক্ষার্থীদের হতাশ না হয়ে কৌশলী হওয়ার পরামর্শদাতা।</p>
+                </div>
+            </div>
+            <a href="index.html" class="bg-gray-900 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-bold transition shadow-lg flex items-center gap-2">
+                হোম পেজে যান <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-12 text-center border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="text-gray-400 text-sm mb-2">
+                &copy; 2026 MH Academy. All rights reserved.
+            </p>
+            <p class="text-xs text-gray-600">Created with AI Assistance.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Icons
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+
+        // --- CODE PROTECTION ---
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) { return false; }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; }
+        }
+    </script>
+</body>
+</html>
